@@ -1,0 +1,82 @@
+{
+	"clusterStretchSpec": {
+	"hostSpecs": [
+	{
+		"id": "34c583cc-455e-4d29-bd27-743289fb386e", 
+		"licenseKey": "T4435-NEH91-N8AN9-081U0-8WNLH", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "sa-m01-cl01-vds01" ,
+				"moveToNvds" : false
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "sa-m01-cl01-vds01",
+					"moveToNvds" : false
+				}
+			]
+		}
+	},
+	{
+		"id": "2257919b-5de1-4088-92ad-63a615fd699d", 
+		"licenseKey": "T4435-NEH91-N8AN9-081U0-8WNLH", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "sa-m01-cl01-vds01",
+				"moveToNvds" : false
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "sa-m01-cl01-vds01",
+					"moveToNvds" : false
+				}
+			]
+		}
+	},
+	{
+		"id": "ddef5680-8138-4e07-964a-61052b302315", 
+		"licenseKey": "T4435-NEH91-N8AN9-081U0-8WNLH", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "sa-m01-cl01-vds01",
+				"moveToNvds" : false
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "sa-m01-cl01-vds01",
+					"moveToNvds" : false
+				}
+			]
+		}
+	},
+	{
+		"id": "12c1c1fb-e7bd-495a-8089-022570ea29ef", 
+		"licenseKey": "T4435-NEH91-N8AN9-081U0-8WNLH", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "sa-m01-cl01-vds01",
+				"moveToNvds" : false 
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "sa-m01-cl01-vds01",
+					"moveToNvds" : false
+				}
+			]
+		}
+	}
+	],
+	
+	"witnessSpec": {
+		"vsanIp": "172.20.20.30",
+		"fqdn": "sa-m01-witness.vcf.sddc.local",
+		"vsanCidr": "172.20.20.0/24" 
+	}, 
+		"witnessTrafficSharedWithVsanTraffic": false,
+		"secondaryAzOverlayVlanId": 2018
+	}
+}

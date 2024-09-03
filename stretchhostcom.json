@@ -1,0 +1,34 @@
+[
+    {
+      "fqdn": "esxi-5.vcf.sddc.local",
+      "username": "root",
+      "storageType": "VSAN",
+      "password": "VMware123!",
+      "networkPoolName": "az2-stretch-np",
+      "networkPoolId": "8cad6c7f-9de7-4f83-9f30-8cc131cf1b12"
+    },
+    {
+      "fqdn": "esxi-6.vcf.sddc.local",
+      "username": "root",
+      "storageType": "VSAN",
+      "password": "VMware123!",
+      "networkPoolName": "az2-stretch-np",
+      "networkPoolId": "8cad6c7f-9de7-4f83-9f30-8cc131cf1b12"
+    },
+    {
+      "fqdn": "esxi-7.vcf.sddc.local",
+      "username": "root",
+      "storageType": "VSAN",
+      "password": "VMware123!",
+      "networkPoolName": "az2-stretch-np",
+      "networkPoolId": "8cad6c7f-9de7-4f83-9f30-8cc131cf1b12"
+    },
+    {
+      "fqdn": "esxi-8.vcf.sddc.local",
+      "username": "root",
+      "storageType": "VSAN",
+      "password": "VMware123!",
+      "networkPoolName": "az2-stretch-np",
+      "networkPoolId": "8cad6c7f-9de7-4f83-9f30-8cc131cf1b12"
+    }
+  ]

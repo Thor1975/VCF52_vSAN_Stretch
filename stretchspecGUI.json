@@ -1,0 +1,40 @@
+{       
+    "clusterStretchSpec": {
+        "hostSpecs": [ {
+            "azName": "",
+            "hostName": "",
+            "hostNetworkSpec": {
+                "vmNics": [ {
+                    "id": "",
+                    "moveToNvds": false,
+                    "uplink": "",
+                    "vdsName": ""
+                } ]
+            },
+            "id": "",
+            "ipAddress": "",
+            "licenseKey": "",
+            "password": "",
+            "serialNumber": "",
+            "sshThumbprint": "",
+            "username": ""
+        } ],
+        "isEdgeClusterConfiguredForMultiAZ": false,
+        "secondaryAzOverlayVlanId": 0,
+        "vsanNetworkSpecs": [ {
+            "vsanCidr": "",
+            "vsanGatewayIP": ""
+        } ],
+        "witnessSpec": {
+            "fqdn": "",
+            "vsanCidr": "",
+            "vsanIp": ""
+        },
+        "witnessTrafficSharedWithVsanTraffic": false
+    },
+    "clusterUnstretchSpec": {
+    },
+    "markForDeletion": false,
+    "name": "",
+    "prepareForStretch": false
+}

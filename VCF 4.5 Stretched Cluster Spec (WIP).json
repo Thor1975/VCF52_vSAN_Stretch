@@ -1,0 +1,89 @@
+{
+	"clusterStretchSpec": {
+	"hostSpecs": [
+	{
+		"id": "ca0b270b-d255-4852-9ce2-0f65bcd579b7", 
+		"licenseKey": "9562P-XT25N-78MG1-0J800-AT220", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "s01-m01-cl01-vds01-pg-mgmt" 
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "s01-m01-cl01-vds01-pg-mgmt"
+				}
+			]
+		}
+	},
+	{
+		"id": "a2fb8d2a-ae62-486f-9e3b-4249f3e34e8f", 
+		"licenseKey": "9562P-XT25N-78MG1-0J800-AT220", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "s01-m01-cl01-vds01-pg-mgmt" 
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "s01-m01-cl01-vds01-pg-mgmt"
+				}
+			]
+		}
+	},
+	{
+		"id": "3218ebdd-e6e0-475e-8b89-03e609c81b2c", 
+		"licenseKey": "9562P-XT25N-78MG1-0J800-AT220", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "s01-m01-cl01-vds01-pg-mgmt" 
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "s01-m01-cl01-vds01-pg-mgmt"
+				}
+			]
+		}
+	},
+	{
+		"id": "80f7e2c1-5389-4bda-a30e-81982e9caea0", 
+		"licenseKey": "9562P-XT25N-78MG1-0J800-AT220", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "s01-m01-cl01-vds01-pg-mgmt" 
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "s01-m01-cl01-vds01-pg-mgmt"
+				}
+			]
+		}
+	},
+	{
+		"id": "076b6c0c-a12a-4f80-9104-d7f05915305d", 
+		"licenseKey": "9562P-XT25N-78MG1-0J800-AT220", 
+		"hostNetworkSpec": {
+			"vmNics": [{
+				"id": "vmnic0", 
+				"vdsName": "s01-m01-cl01-vds01-pg-mgmt" 
+				},
+				{ 
+					"id": "vmnic1", 
+					"vdsName": "s01-m01-cl01-vds01-pg-mgmt"
+				}
+			]
+		}
+	}],
+	
+	"witnessSpec": {
+		"vsanIp": "172.20.20.68",
+		"fqdn": "sddc-witness.vcf.sddc.local",
+		"vsanCidr": "172.20.20.0" 
+	}, 
+		"witnessTrafficSharedWithVsanTraffic": true,
+		"secondaryAzOverlayVlanId": 2018,
+		"isEdgeClusterConfiguredForMultiAZ": true 
+	}
+}
